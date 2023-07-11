@@ -24,3 +24,5 @@ http://localhost:8080/swagger/index.html
 W zadaniu wykorzystano aplikację stworzoną na podstawie domyślnego szablonu ASP.NET z VS2022.
 Plik Dockerfile zorganizowano w postaci dwustopniowej (multi-stage building): środowiska kompilacyjnego (build-env) i środowiska uruchomieniowego (runtime).
 Oba środowiska opierają się na standardowej dystrybucji Linuxa ubuntu:22.04.
+
+Aplikacja uruchamiana jest na kontenerze w trybie Debug w celu dostępu do Swagger'a.
